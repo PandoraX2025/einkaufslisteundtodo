@@ -1,0 +1,99 @@
+# Code Citations
+
+## License: MIT
+https://github.com/JefreyTG/coolCalculator/blob/b43dcf743e41df4fa8e466bef90bdb37a378567c/index.html
+
+```
+calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="deleteLast()">DEL</button>
+```
+
+## License: MIT
+https://github.com/JefreyTG/coolCalculator/blob/b43dcf743e41df4fa8e466bef90bdb37a378567c/index.html
+
+```
+calculator">
+        <input type="text" id="display" disabled>
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="deleteLast()">DEL</button>
+```
+
+body {
+    // ...existing code...
+}
+.hone {
+    // ...existing code...
+}
+
+.img1 {
+    // ...existing code...
+}
+
+.img2 {
+    // ...existing code...
+}
+
+.container {
+    // ...existing code...
+}
+
+#addTaskButton {
+    // ...existing code...
+}
+
+#addTaskButton img {
+    // ...existing code...
+}
+
+.deleteButton {
+    // ...existing code...
+}
+
+.deleteButton img {
+    // ...existing code...
+}
+
+.bottom-links {
+    // ...existing code...
+}
+
+.bottom-links a img {
+    // ...existing code...
+}
+
+#addShoppingButton {
+    // ...existing code...
+}
+
+#addShoppingButton img {
+    // ...existing code...
+}
+
+.calculator {
+    // ...existing code...
+}
+
+.calculator input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: none;
+    background-color: #fff;
+}
+
+.calculator .buttons {
+    // ...existing code...
+}
+
+.calculator .buttons button {
+    // ...existing code...
+}
+
+.calculator .buttons button:hover {
+    // ...existing code...
+}

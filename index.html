@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyMate</title>
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <img class="img1" src="images/wave-up.png" alt="wave">
+    <img class="img2" src="images/wave-down.png" alt="wave"> 
+<header>
+    <h1 class="hone">DailyMate</h1>
+</header>
+
+    <div class="container">
+        <input type="text" id="taskInput" placeholder="To-Do eingeben...">
+        <button id="addTaskButton"><img src="images/add.svg" alt="Add"></button>
+        <ul id="taskList"></ul>
+    </div>
+   
+    <div class="bottom-links">
+        <a href="shop.html"><img src="images/basket.svg" alt="To-Do"></a>
+        <a href="rechner.html"><img src="images/calculator.svg" alt="Calculator"></a>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('/service-worker.js')
+            .then(function(registration) {
+              console.log('Service Worker registered: ', registration);
+            })
+            .catch(function(err) {
+              console.log('Service Worker registration failed: ', err);
+            });
+        });
+      }
+    </script>
+</body>
+</html>

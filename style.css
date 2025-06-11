@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #504e4e;
+}
+.hone {
+    background-color: #6828b1;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.img1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -2; /* Setze einen niedrigeren z-index */
+    object-fit: cover;
+}
+
+.img2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -2; /* Setze einen niedrigeren z-index */
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#addTaskButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#addTaskButton img {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px;
+}
+
+.deleteButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.deleteButton img {
+    width: 16px; /* Adjust the size as needed */
+    height: 16px;
+}
+
+.bottom-links {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-links a img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    background-color: rgba(128, 128, 128, 0.5); /* Gray with 50% transparency */
+    border-radius: 50%; /* Make it rounded */
+    padding: 10px; /* Add some padding around the image */
+}
+
+#addShoppingButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+#addShoppingButton img {
+    width: 24px; /* Adjust the size as needed */
+    height: 24px;
+}
+
+.calculator {
+    width: 400px; /* Vergrößere die Breite */
+    margin: 0 auto; /* Zentriere horizontal */
+    position: absolute; /* Füge absolute Positionierung hinzu */
+    top: 50%; /* Positioniere am oberen Rand der Hälfte des Bildschirms */
+    left: 50%; /* Positioniere am linken Rand der Hälfte des Bildschirms */
+    transform: translate(-50%, -50%); /* Zentriere perfekt */
+    border: 1px solid #9140ec;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.calculator input {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    text-align: left; /* Ändere die Ausrichtung auf links */
+    border: none;
+    background-color: #fff;
+}
+
+.calculator .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator .buttons button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    background-color: #292929;
+    cursor: pointer;
+}
+
+.calculator .buttons button:hover {
+    background-color: #707070;
+}
